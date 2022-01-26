@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <array name="spinner_item">
+        <item>Chapati</item>
+        <item>Dal</item>
+        <item>Rice</item>
+    </array>
+</resources>
