@@ -58,6 +58,7 @@ public class Register extends AppCompatActivity {
                         }else{
                             Toast.makeText(Register.this, "User Already Exists! Please Sign-in", Toast.LENGTH_SHORT).show();
                         }
+
                     }else {
                         Toast.makeText(Register.this, "Password Not Matching", Toast.LENGTH_SHORT).show();
                     }
