@@ -1,0 +1,14 @@
+name: Build
+on:
+  push:
+      branches:
+        -main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: checkout the code
+        uses: actions/checkout@v2
+      - name: build the app
+        uses: ./gradlew.build
